@@ -61,24 +61,7 @@ function Get-DHCPIP {
 # Example line: MainRouter    MainBuilding    1    Left    192.168.1.1
 $rawInput = @"
 MainRouter	MainBuilding	1	Left	192.168.1.1
-ACP0	Bahr	0	Right	192.168.11.1
-ACP1f1	Bahr	1	Left	192.168.12.1
-ACP1f2	Bahr	1	Right	192.168.131.2
-ACP2f1	Bahr	2	Left	192.168.14.1
-ACP2f2	Bahr	2	Right	192.168.15.1 
-ACP3f1	Bahr	3	Left	192.168.16.1
-ACP3f2	Bahr	3	Right	192.168.17.1
-ACP4f1	Bahr	4	Left	192.168.18.1
-ACP4f2	Bahr	4	Right	192.168.19.1
-JCP0	Jamiah	0	Left	192.168.20.1
-JCP1f1	Jamiah	1	Left	192.168.21.1
-JCP1f2	Jamiah	1	Right	192.168.22.1
-JCP2f1	Jamiah	2	Left	192.168.23.1
-JCP2f2	Jamiah	2	Right	192.168.24.1
-JCP3f1	Jamiah	3	Left	192.168.25.1
-JCP3f2	Jamiah	3	Right	192.168.62.1
-JCP4f1	Jamiah	4	Left	192.168.27.1
-JCP4f2	Jamiah	4	Right	192.168.28.1
+test	buildingname	4	Right	192.168.100.1
 "@
 
 # Network interface name (adjust if needed)
