@@ -20,9 +20,12 @@ Suggested upgrade: Deploy on Raspberry pie to update when a router goes down.
 
 
 Use the following PowerShell command to generate 18 Random 12-digit password for the monthly Access Point credentials' rotation.
+
 1..18 | ForEach-Object {-join ((0..10) | Get-Random -Count 12)}
 
 
+Ahmed AbdulKarim
+ak.ahmed@live.com
 
 
 
